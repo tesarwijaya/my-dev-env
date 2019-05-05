@@ -1,6 +1,13 @@
 # HOW TO SETUP MY WINDOWS DEVELOPMENT ENVIRONMENT
 
-## 1 Windows Subsystem Linux (WSL) Install Guide
+## List of Contents
+- [Windows Subsystem Linux (WSL) Install Guide](https://github.com/tesarwijaya/my-dev-env#1-windows-subsystem-linux-wsl-install-guide)
+- [Setup Docker for windows with WSL](https://github.com/tesarwijaya/my-dev-env#2-setup-docker-for-windows-with-wsl)
+- [Useful Daily App](https://github.com/tesarwijaya/my-dev-env#useful-app-daily-app)
+- [Cheat Sheet](https://github.com/tesarwijaya/my-dev-env#cheat-sheet)
+
+
+## Windows Subsystem Linux (WSL) Install Guide
 ### Install the Windows Subsystem for Linux
 Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled:
 
@@ -15,7 +22,7 @@ Now that your Linux distro is installed, you must initialize your new distro ins
 
 [source](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-## 2 Setup Docker for windows with WSL
+## Setup Docker for windows with WSL
 First, download docker for windows from [here](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe) and install it.
 
 After successfully installing docker, go to docker configuration In the general settings, we want to expose the daemon without TLS. don't forget to set shared drive settings too!
@@ -110,7 +117,7 @@ docker-compose --version
 
 [source](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)
 
-## Useful App Daily App
+## Useful Daily App
 - [Git](https://git-scm.com/)
 - [Git Flow](https://github.com/nvie/gitflow/wiki/Installation)
 
